@@ -93,8 +93,6 @@
           <div class="container text-center white-text fadeInUp">
             <span class="h2" id="subtitle">
               
-                Tag
-              
             </span>
 
             
@@ -118,7 +116,7 @@
                 
 
 <div class="text-center tagcloud">
-  
+  <a href="/tags/%E7%94%9C%E5%93%81%E7%B3%BB%E5%88%97/" style="font-size: 15px; color: #bbe">甜品系列</a>
 </div>
 
               </div>
@@ -212,6 +210,24 @@
   </script>
 
 
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "Tag&nbsp;",
+      ],
+      cursorChar: "_",
+      typeSpeed: 60,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
 
 
 
